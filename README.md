@@ -1,16 +1,16 @@
-Footballer_Skills.py: Explores Basic Python Principles
+Footballer_Skills.py: Explores Intermediate Python Principles
 
 Submitted by: Evan Balson
-### Time spent: 20 days
+### Time spent: 30 days
 
-<img src='https://github.com/Evan-Balson/Footballer_Skills_CLI/blob/main/footballer_skill_CLI.png' />
+<img src='https://github.com/Evan-Balson/Footballer-Skills--GUI-Using-Kivy/blob/main/footballer_skill_GUI_Cover.png' />
 
 # Footballer_Skills_CLI
-This Python Command Line Interface (CLI) program aims to encapsulate functionalities essential for  comprehensive football player evaluation. This will include an organized code structure, employing  variables, functions, control structures, lists and standard libraries enhancing modularity and readability.
+This Python program has evolved from a Command Line Interface (CLI) to a Graphical User Interface (GUI) using the Kivy framework. The application is designed for comprehensive football player evaluation, featuring an organized code structure that leverages Python’s capabilities in a user-friendly environment.
 
 
 ## Description:
-Footballer_Skills.py: Explores Essential Python Principles, showcasing the flexibility of this IDE in computing. It will explore fundamental arithmetic, subroutines, and control flow with sample a sample program which we will develop into an advanced program with robust error & exception handlining:
+The Footballer_Skills.py CLI serves as the backbone of the application, showcasing essential Python principles and the flexibility of the language in computing. The program covers fundamental arithmetic, subroutines, and control flow, and has been developed into an advanced application with robust error and exception handling, all now presented in an intuitive GUI.
 
 
 ## Basic flow chart for simple progam
@@ -118,21 +118,22 @@ Footballer_Skills.py: Explores Essential Python Principles, showcasing the flexi
 ------------------------------------------------------------------------
 # 1. TECHNOLOGIES USED:
 ------------------------------------------------------------------------
-1. Python: Used as the primary programming language for developing the application.
-2. os: Used for accessing operating system dependent functionality such as file handling.
-3. tabulate: Used for creating well-formatted tables to display player information.
-4. datetime: Used for manipulating dates and times, crucial for calculating players' ages.
-5. re: Used for regular expression operations to validate input data like dates.
+1. Python: The core programming language used for developing the application.
+2. Kivy: A Python framework for developing multitouch applications, used to create the graphical user interface (GUI).
+3. os: Provides access to operating system-dependent functionalities such as file handling.
+4. tabulate: Facilitates the creation of well-formatted tables to display player information.
+5. datetime: Crucial for manipulating dates and times, especially for calculating players' ages.
+6. re: Handles regular expression operations, essential for validating input data like dates.
 
 
 ------------------------------------------------------------------------
 # 2. Instructions:
 ------------------------------------------------------------------------
 1. Clone the repository to your local machine.
-2. Navigate to the project directory in the terminal.
-3. Install the required Python libraries.
-4. Run the Python script.
-5. Follow the on-screen prompts to enter player information.
+2. Navigate to the project directory in your terminal.
+3. Install the required Python libraries (including Kivy).
+4. Run the Python script to launch the GUI.
+5. Interact with the graphical interface to enter and manage player information.
 6. The summary table will also be saved to a file named players.txt.
 
 
@@ -148,6 +149,8 @@ Footballer_Skills.py: Explores Essential Python Principles, showcasing the flexi
 3. datetime Module: Python's datetime module is used for manipulating dates and times. It should be available by default in your Python installation.
 
 4. re Module: The re module is used for regular expression operations for input validation. It should be available by default in your Python installation.
+
+5. Install the Kivy library to enable the graphical user interface: pip install kivy
 ------------------------------------------------------------------------
 # 4. CONTRIBUTIONS
 ------------------------------------------------------------------------
