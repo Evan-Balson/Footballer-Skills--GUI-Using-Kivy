@@ -1,11 +1,11 @@
-Footballer_Skills.py: Explores Intermediate Python Principles
+Footballer_Skills GUI.py: Explores Intermediate Python Principles
 
 Submitted by: Evan Balson
 ### Time spent: 30 days
 
 <img src='https://github.com/Evan-Balson/Footballer-Skills--GUI-Using-Kivy/blob/main/footballer_skill_GUI_Cover.png' />
 
-# Footballer_Skills_CLI
+# Footballer_Skills_GUI
 This Python program has evolved from a Command Line Interface (CLI) to a Graphical User Interface (GUI) using the Kivy framework. The application is designed for comprehensive football player evaluation, featuring an organized code structure that leverages Python’s capabilities in a user-friendly environment.
 
 
