@@ -105,6 +105,10 @@ class Screen0(Screen):
 
     def __init__(self, **kwargs):
         super(Screen0, self).__init__(**kwargs)
+        # Add the background image
+        self.background = Image(source='Salary Calculator Mockup BG.png', allow_stretch=True, keep_ratio=True)
+        self.add_widget(self.background)
+
         self.window = GridLayout()
         self.window.cols = 1
         self.window.size_hint = (0.5, 0.6)
@@ -113,7 +117,7 @@ class Screen0(Screen):
         self.title0 = Label(text="Load file or\nStart with Default",
                            font_size = 60,
                            color = '#00FFCE',
-                           halign = "center"
+                           halign = "center",
                            )
         self.window.add_widget(self.title0)
 
@@ -127,8 +131,10 @@ class Screen0(Screen):
 
         #text Input
         self.filename = TextInput(multiline=False,
+                              padding_y = (15,0),
                               size_hint = (1, 0.5)
                               )
+                              
         self.window.add_widget(self.filename)
 
 
@@ -366,6 +372,11 @@ class Welcome_Screen(Screen):
 
     def __init__(self, **kwargs):
         super(Welcome_Screen, self).__init__(**kwargs)
+
+        # Add the background image
+        self.background = Image(source='Salary Calculator Mockup BG.png', allow_stretch=True, keep_ratio=True)
+        self.add_widget(self.background)
+
         self.window = GridLayout()
         self.window.cols = 1
         self.window.size_hint = (0.6, 0.9)
@@ -475,6 +486,11 @@ class Welcome_Screen(Screen):
 class New_Player(Screen):
     def __init__(self, **kwargs):
         super(New_Player, self).__init__(**kwargs)
+        
+        # Add the background image
+        self.background = Image(source='Salary Calculator Mockup BG.png', allow_stretch=True, keep_ratio=True)
+        self.add_widget(self.background)
+
         self.window = GridLayout()
         self.window.cols = 1
         self.window.size_hint = (0.6, 0.9)
@@ -627,6 +643,9 @@ def np_calculate_salary():
 class New_Player_Register1(Screen):  
     def __init__(self, **kwargs):
         super(New_Player_Register1, self).__init__(**kwargs)
+        # Add the background image
+        self.background = Image(source='Salary Calculator Mockup BG.png', allow_stretch=True, keep_ratio=True)
+        self.add_widget(self.background)
         self.window = GridLayout()
         self.window.cols = 1
         self.window.size_hint = (0.3, 0.9)
@@ -798,6 +817,11 @@ class New_Player_Register1(Screen):
 class New_Player_Register2(Screen):   
     def __init__(self, **kwargs):
         super(New_Player_Register2, self).__init__(**kwargs)
+
+        # Add the background image
+        self.background = Image(source='Salary Calculator Mockup BG.png', allow_stretch=True, keep_ratio=True)
+        self.add_widget(self.background)
+
         self.window = GridLayout()
         self.window.cols = 1
         self.window.size_hint = (0.3, 0.8)
@@ -1000,6 +1024,10 @@ class New_Player_Register2(Screen):
 class New_Calculation_Page(Screen):
     def __init__(self, **kwargs):
         super(New_Calculation_Page, self).__init__(**kwargs)
+        # Add the background image
+        self.background = Image(source='Salary Calculator Mockup BG.png', allow_stretch=True, keep_ratio=True)
+        self.add_widget(self.background)
+
         self.window = GridLayout()
         self.window.cols = 1
         self.window.size_hint = (0.6, 0.7)
@@ -1117,6 +1145,10 @@ class New_Calculation_Page(Screen):
 class Tabulation_Page(Screen):
     def __init__(self, **kwargs):
         super(Tabulation_Page, self).__init__(**kwargs)
+                # Add the background image
+        self.background = Image(source='Salary Calculator Mockup BG.png', allow_stretch=True, keep_ratio=True)
+        self.add_widget(self.background)
+
         self.window = GridLayout()
         self.window.cols = 1
         self.window.size_hint = (0.6, 0.7)
@@ -1240,6 +1272,11 @@ class Tabulation_Page(Screen):
 class Existing_Player(Screen):
     def __init__(self, **kwargs):
         super(Existing_Player, self).__init__(**kwargs)
+
+        # Add the background image
+        self.background = Image(source='Salary Calculator Mockup BG.png', allow_stretch=True, keep_ratio=True)
+        self.add_widget(self.background)
+
         self.window = GridLayout()
         self.window.cols = 1
         self.window.size_hint = (0.6, 0.9)
@@ -1405,6 +1442,10 @@ def up_calculate_salary():
 class Update_Player_Register1(Screen):  
     def __init__(self, **kwargs):
         super(Update_Player_Register1, self).__init__(**kwargs)
+        # Add the background image
+        self.background = Image(source='Salary Calculator Mockup BG.png', allow_stretch=True, keep_ratio=True)
+        self.add_widget(self.background)
+
         self.window = GridLayout()
         self.window.cols = 1
         self.window.size_hint = (0.3, 0.9)
@@ -1575,6 +1616,10 @@ class Update_Player_Register1(Screen):
 class Update_Player_Register2(Screen):   
     def __init__(self, **kwargs):
         super(Update_Player_Register2, self).__init__(**kwargs)
+        # Add the background image
+        self.background = Image(source='Salary Calculator Mockup BG.png', allow_stretch=True, keep_ratio=True)
+        self.add_widget(self.background)
+
         self.window = GridLayout()
         self.window.cols = 1
         self.window.size_hint = (0.3, 0.8)
@@ -1781,6 +1826,10 @@ class Save_Table(Screen):
 
     def __init__(self, **kwargs):
         super(Save_Table, self).__init__(**kwargs)
+        # Add the background image
+        self.background = Image(source='Salary Calculator Mockup BG.png', allow_stretch=True, keep_ratio=True)
+        self.add_widget(self.background)
+
         self.window = GridLayout()
         self.window.cols = 1
         self.window.size_hint = (0.5, 0.6)
